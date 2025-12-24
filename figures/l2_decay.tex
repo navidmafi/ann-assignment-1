@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/l2_decay.png}%
+\caption{2HL MLP + 1e{-}4 L2 Weight Decay Accuracy/Loss plot}%
+\label{l2decaygraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&L2 WD 1e{-}4\\%
+Scheduler&None\\%
+Train Acc&99.98\%\\%
+Train Loss&0.0\\%
+Train Time (sec.)&30.32\\%
+Training Samples&11964\\%
+Val Acc&84.75\%\\%
+Val Loss&0.93\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + 1e{-}4 L2 Weight Decay Experiment Parameters}%
+\label{l2decayparams}%
+\end{table}

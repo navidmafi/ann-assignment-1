@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "nll_loss.xdv" "nll_loss.pdf" "nll_loss" 0 -1
+  "nll_loss.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "nll_loss.pdf"
+  (rewritten before read)
+["xelatex"] 1763991974.30942 "nll_loss.tex" "nll_loss.xdv" "nll_loss" 1763991974.44301 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "nll_loss.aux" 1763991861.67855 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "nll_loss.tex" 1763991974.21792 373 74bcef613b2ce48c50400e6bb912d66f ""
+  (generated)
+  "nll_loss.aux"
+  "nll_loss.log"
+  "nll_loss.xdv"
+  (rewritten before read)

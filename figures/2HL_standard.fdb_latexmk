@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "2HL_standard.xdv" "2HL_standard.pdf" "2HL_standard" 0 -1
+  "2HL_standard.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "2HL_standard.pdf"
+  (rewritten before read)
+["xelatex"] 1764000842.06982 "2HL_standard.tex" "2HL_standard.xdv" "2HL_standard" 1764000842.2244 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "2HL_standard.aux" 1764000842.06935 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "2HL_standard.tex" 1764000748.06684 479 e5fb0decbd18cd1f18f7298ec84169e5 ""
+  (generated)
+  "2HL_standard.aux"
+  "2HL_standard.log"
+  "2HL_standard.xdv"
+  (rewritten before read)

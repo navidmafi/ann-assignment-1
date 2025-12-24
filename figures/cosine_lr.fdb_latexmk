@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "cosine_lr.xdv" "cosine_lr.pdf" "cosine_lr" 0 -1
+  "cosine_lr.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "cosine_lr.pdf"
+  (rewritten before read)
+["xelatex"] 1764000895.69645 "cosine_lr.tex" "cosine_lr.xdv" "cosine_lr" 1764000895.85847 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "cosine_lr.aux" 1764000858.21975 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "cosine_lr.tex" 1764000895.61503 0 d41d8cd98f00b204e9800998ecf8427e ""
+  (generated)
+  "cosine_lr.aux"
+  "cosine_lr.log"
+  "cosine_lr.xdv"
+  (rewritten before read)

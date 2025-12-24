@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/nll_loss.png}%
+\caption{2HL MLP + NLLLoss (wrapped) Accuracy/Loss plot}%
+\label{nlllossgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&nll\_wrapper\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&None\\%
+Scheduler&None\\%
+Train Acc&99.98\%\\%
+Train Loss&0.0\\%
+Train Time (sec.)&23.24\\%
+Training Samples&11964\\%
+Val Acc&83.54\%\\%
+Val Loss&1.19\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + NLLLoss (wrapped) Experiment Parameters}%
+\label{nlllossparams}%
+\end{table}

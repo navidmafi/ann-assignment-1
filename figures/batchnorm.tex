@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/batchnorm.png}%
+\caption{2HL MLP + Batch normalization Accuracy/Loss plot}%
+\label{batchnormgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310474\\%
+Regularization&BatchNorm\\%
+Scheduler&None\\%
+Train Acc&100.00\%\\%
+Train Loss&0.0\\%
+Train Time (sec.)&36.18\\%
+Training Samples&11964\\%
+Val Acc&86.35\%\\%
+Val Loss&0.73\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + Batch normalization Experiment Parameters}%
+\label{batchnormparams}%
+\end{table}

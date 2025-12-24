@@ -1,0 +1,57 @@
+\begin{table}[H]%
+\begin{adjustbox}{width=1.4\textwidth,center}
+\begin{tabular}{|*{12}{c}|}%
+\hline%
+\makecell{Exp. ID}&\makecell{Activation}&\makecell{Optimizer}&\makecell{Optimizer Params}&\makecell{Param Count}&\makecell{Regularization}&\makecell{Scheduler}&\makecell{Train Acc}&\makecell{Train Loss}&\makecell{Train Time (sec.)}&\makecell{Val Acc}&\makecell{Val Loss}\\%
+\hline%
+\makecell{Combined1}&\makecell{ReLU}&\makecell{AdamW}&\makecell{LR=0.001}&\makecell{310474}&\makecell{Dropout 0.5 \\%
+BatchNorm \\%
+1e{-}3 Weight Decay}&\makecell{None}&\makecell{94.87\%}&\makecell{0.16}&\makecell{29.46}&\makecell{86.47\%}&\makecell{0.51}\\%
+\hline%
+\makecell{batchnorm}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310474}&\makecell{BatchNorm}&\makecell{None}&\makecell{100.00\%}&\makecell{0.0}&\makecell{36.18}&\makecell{86.35\%}&\makecell{0.73}\\%
+\hline%
+\makecell{p3e22}&\makecell{ReLU}&\makecell{SGD}&\makecell{LR=0.001 \\%
+momentum=0.9}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{94.08\%}&\makecell{0.2}&\makecell{27.07}&\makecell{85.69\%}&\makecell{0.43}\\%
+\hline%
+\makecell{dropout\_02}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{Dropout 0.2}&\makecell{None}&\makecell{97.54\%}&\makecell{0.07}&\makecell{21.4}&\makecell{85.34\%}&\makecell{0.76}\\%
+\hline%
+\makecell{step\_lr}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{StepLR \\%
+step=5 \\%
+gamma=0.5}&\makecell{95.29\%}&\makecell{0.16}&\makecell{23.33}&\makecell{85.18\%}&\makecell{0.46}\\%
+\hline%
+\makecell{medium\_3hl}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{644170}&\makecell{None}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{23.71}&\makecell{85.10\%}&\makecell{1.17}\\%
+\hline%
+\makecell{p3e12}&\makecell{LeakyReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{20.57}&\makecell{84.87\%}&\makecell{1.15}\\%
+\hline%
+\makecell{l2\_decay}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{L2 WD 1e{-}4}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{30.32}&\makecell{84.75\%}&\makecell{0.93}\\%
+\hline%
+\makecell{mse\_loss}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.63\%}&\makecell{0.0}&\makecell{24.61}&\makecell{84.32\%}&\makecell{0.02}\\%
+\hline%
+\makecell{p3e24}&\makecell{ReLU}&\makecell{RMSprop}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{23.67}&\makecell{84.17\%}&\makecell{1.2}\\%
+\hline%
+\makecell{2HL\_standard}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{19.84}&\makecell{84.05\%}&\makecell{1.23}\\%
+\hline%
+\makecell{dropout\_05}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{Dropout 0.5}&\makecell{None}&\makecell{89.94\%}&\makecell{0.29}&\makecell{30.5}&\makecell{83.97\%}&\makecell{0.57}\\%
+\hline%
+\makecell{cosine\_lr}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{CosineAnnealingLR \\%
+T\_max=10}&\makecell{99.98\%}&\makecell{0.0}&\makecell{24.32}&\makecell{83.78\%}&\makecell{0.97}\\%
+\hline%
+\makecell{deep\_5hl}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{1379626}&\makecell{None}&\makecell{None}&\makecell{99.68\%}&\makecell{0.01}&\makecell{29.2}&\makecell{83.70\%}&\makecell{1.1}\\%
+\hline%
+\makecell{p3e14}&\makecell{Sigmoid}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.97\%}&\makecell{0.0}&\makecell{23.96}&\makecell{83.62\%}&\makecell{0.72}\\%
+\hline%
+\makecell{nll\_loss}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{99.98\%}&\makecell{0.0}&\makecell{23.24}&\makecell{83.54\%}&\makecell{1.19}\\%
+\hline%
+\makecell{2HL\_small\_bs}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{97.94\%}&\makecell{0.09}&\makecell{55.94}&\makecell{82.88\%}&\makecell{1.61}\\%
+\hline%
+\makecell{shallow\_1hl}&\makecell{ReLU}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{151242}&\makecell{None}&\makecell{None}&\makecell{99.84\%}&\makecell{0.01}&\makecell{19.34}&\makecell{82.57\%}&\makecell{1.07}\\%
+\hline%
+\makecell{p3e13}&\makecell{Tanh}&\makecell{Adam}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{98.37\%}&\makecell{0.05}&\makecell{22.06}&\makecell{82.37\%}&\makecell{0.92}\\%
+\hline%
+\makecell{p3e21}&\makecell{ReLU}&\makecell{SGD}&\makecell{LR=0.001}&\makecell{310090}&\makecell{None}&\makecell{None}&\makecell{71.86\%}&\makecell{0.8}&\makecell{21.25}&\makecell{71.68\%}&\makecell{0.81}\\%
+\hline%
+\end{tabular}
+\end{adjustbox}%
+\caption{The ultimate comparison}%
+\label{allcomp}%
+\end{table}

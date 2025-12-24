@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "2HL_small_bs.xdv" "2HL_small_bs.pdf" "2HL_small_bs" 0 -1
+  "2HL_small_bs.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "2HL_small_bs.pdf"
+  (rewritten before read)
+["xelatex"] 1764000995.78815 "2HL_small_bs.tex" "2HL_small_bs.xdv" "2HL_small_bs" 1764000995.94249 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "2HL_small_bs.aux" 1764000938.25763 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "2HL_small_bs.tex" 1764000995.71439 495 8914b6db16941c88949c174673f0d090 ""
+  (generated)
+  "2HL_small_bs.aux"
+  "2HL_small_bs.log"
+  "2HL_small_bs.xdv"
+  (rewritten before read)

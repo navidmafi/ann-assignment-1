@@ -1,0 +1,34 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/step_lr.png}%
+\caption{2HL MLP + StepLR Accuracy/Loss plot}%
+\label{steplrgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&None\\%
+Scheduler&StepLR \newline%
+step=5 \newline%
+gamma=0.5\\%
+Train Acc&95.29\%\\%
+Train Loss&0.16\\%
+Train Time (sec.)&23.33\\%
+Training Samples&11964\\%
+Val Acc&85.18\%\\%
+Val Loss&0.46\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + StepLR Experiment Parameters}%
+\label{steplrparams}%
+\end{table}

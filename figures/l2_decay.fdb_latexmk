@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "l2_decay.xdv" "l2_decay.pdf" "l2_decay" 0 -1
+  "l2_decay.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "l2_decay.pdf"
+  (rewritten before read)
+["xelatex"] 1764001105.68149 "l2_decay.tex" "l2_decay.xdv" "l2_decay" 1764001105.81314 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "l2_decay.aux" 1764001088.57897 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "l2_decay.tex" 1764001105.61192 515 d1a1fdc011771efacab5f3adadafd53d ""
+  (generated)
+  "l2_decay.aux"
+  "l2_decay.log"
+  "l2_decay.xdv"
+  (rewritten before read)

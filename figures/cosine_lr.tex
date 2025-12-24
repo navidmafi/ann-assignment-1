@@ -1,0 +1,33 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/cosine_lr.png}%
+\caption{2HL MLP + CosineAnnealingLR Accuracy/Loss plot}%
+\label{cosinelrgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&None\\%
+Scheduler&CosineAnnealingLR \newline%
+T\_max=10\\%
+Train Acc&99.98\%\\%
+Train Loss&0.0\\%
+Train Time (sec.)&24.32\\%
+Training Samples&11964\\%
+Val Acc&83.78\%\\%
+Val Loss&0.97\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + CosineAnnealingLR Experiment Parameters}%
+\label{cosinelrparams}%
+\end{table}

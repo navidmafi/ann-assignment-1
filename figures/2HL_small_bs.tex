@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/2HL_small_bs.png}%
+\caption{2HL MLP + ReLU BS=64 Accuracy/Loss plot}%
+\label{2HLsmallbsgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&None\\%
+Scheduler&None\\%
+Train Acc&97.94\%\\%
+Train Loss&0.09\\%
+Train Time (sec.)&55.94\\%
+Training Samples&11964\\%
+Val Acc&82.88\%\\%
+Val Loss&1.61\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + ReLU BS=64 Experiment Parameters}%
+\label{2HLsmallbsparams}%
+\end{table}

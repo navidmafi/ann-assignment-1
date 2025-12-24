@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/mse_loss.png}%
+\caption{2HL MLP + MSELoss (one{-}hot targets) Accuracy/Loss plot}%
+\label{mselossgraph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&mse\_wrapper\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&None\\%
+Scheduler&None\\%
+Train Acc&99.63\%\\%
+Train Loss&0.0\\%
+Train Time (sec.)&24.61\\%
+Training Samples&11964\\%
+Val Acc&84.32\%\\%
+Val Loss&0.02\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + MSELoss (one{-}hot targets) Experiment Parameters}%
+\label{mselossparams}%
+\end{table}

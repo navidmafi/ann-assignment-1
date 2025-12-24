@@ -1,0 +1,32 @@
+\begin{figure}[H]%
+\centering%
+\includegraphics[width=1\textwidth]{figures/dropout_02.png}%
+\caption{2HL MLP + 0.2 dropouts Accuracy/Loss plot}%
+\label{dropout02graph}%
+\end{figure}
+
+\begin{table}[H]%
+\centering%
+\begin{tabular}{|cc|}%
+\hline%
+Metric&Value\\%
+\hline%
+Activation&ReLU\\%
+Batch Size&256\\%
+Loss&CrossEntropyLoss()\\%
+Optimizer&Adam\\%
+Optimizer Params&LR=0.001\\%
+Param Count&310090\\%
+Regularization&Dropout 0.2\\%
+Scheduler&None\\%
+Train Acc&97.54\%\\%
+Train Loss&0.07\\%
+Train Time (sec.)&21.4\\%
+Training Samples&11964\\%
+Val Acc&85.34\%\\%
+Val Loss&0.76\\%
+\hline%
+\end{tabular}%
+\caption{2HL MLP + 0.2 dropouts Experiment Parameters}%
+\label{dropout02params}%
+\end{table}

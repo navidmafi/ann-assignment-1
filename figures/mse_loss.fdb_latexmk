@@ -1,0 +1,16 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "mse_loss.xdv" "mse_loss.pdf" "mse_loss" 0 -1
+  "mse_loss.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "mse_loss.pdf"
+  (rewritten before read)
+["xelatex"] 1764001046.1955 "mse_loss.tex" "mse_loss.xdv" "mse_loss" 1764001046.33601 2
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1755987285 42087 b0f9697c952c8f5a8eede4134282cb0d ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1757469951 4492021 58837814812d8573d0997f1ee62e92c3 ""
+  "mse_loss.aux" 1764000955.26179 32 3985256e7290058c681f74d7a3565a19 "xelatex"
+  "mse_loss.tex" 1764001046.1206 504 36abe6e47f32254630fb12596380e037 ""
+  (generated)
+  "mse_loss.aux"
+  "mse_loss.log"
+  "mse_loss.xdv"
+  (rewritten before read)
